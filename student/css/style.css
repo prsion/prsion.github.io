@@ -69,7 +69,7 @@ header {
 .third span{vertical-align: top;margin-top: 4%;display: inline-block;font-size: 1.5rem;}
 
 
-.forth{display: inline-block;vertical-align: text-top;margin-top: -7.5%;color: blue;float: right;margin-left: -1px;}
+.forth{display: inline-block;vertical-align: text-top;margin-top: -8.5%;color: blue;float: right;margin-left: -1px;}
 .forth span{
 	display: inline-block;
 	margin-left: 8px;
@@ -78,7 +78,7 @@ header {
 .forth p{
 	display: inline-block;
 }
-.forth button{background: #f39d2b;color: white;max-width: 42%;height: 34px;}
+.forth button{background: #f39d2b;color: white;max-width: 92px;height: 40px;}
 .wrap_flag{float: right;margin-top: 3%;position: relative;width: 133px;display: inline-block;margin-right: 1%;}
 .flag{
 	z-index: 999;
@@ -87,11 +87,11 @@ header {
 	float: left;
 	margin-left: 29%;
 }
-.flag_li:first-child  {
+.flag li:first-child  {
   display: block;
   width: 100%;
 }
-.flag_li {
+.flag li {
 	display: none;
 }
 .flag ul {
