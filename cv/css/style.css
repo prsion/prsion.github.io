@@ -1,0 +1,66 @@
+
+/*_____HEADER____________*/
+body{
+
+
+
+}
+
+
+.wrapper{
+	max-width: 1100px;
+	height: 100vh;
+}
+
+section {background: url(../images/internet.png) no-repeat fixed center top / cover;opacity: 1;position: relative;width: 1000px;height: 500px;
+height: 100vh;}
+
+section p:first-child{
+	background: #131835;
+	width: 68%;
+	margin: 0 auto;
+	height: 93vh;
+	opacity: 0.85;
+	padding-left: 15%;
+	padding-right: 13%;
+	font-size: 1.75rem;
+	padding-top: 7%;
+	font-family: 'Marmelad', sans-serif;
+	line-height: 2.5;
+}
+#tab-4 a{display: block;margin: auto;text-align: -webkit-center;text-decoration: underline;color: #8bf6f9;}
+#tab-5 i{
+margin-left: 15%;
+margin-top: 10%;
+color: #2fcbff;
+}
+
+/* =========== MEDIA ===========*/
+
+
+
+
+@media screen and (max-width:1360px){
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width:992px) {
+
+
+}
+
+
+
+
+
+
+
+
+
+
