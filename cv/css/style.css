@@ -9,12 +9,10 @@ body{
 
 .wrapper{
 	max-width: 1550px;
-	height: 100vh;
 	background: url(../images/internet.png) no-repeat fixed center top / cover;
 	opacity: 1;
 	position: relative;
 	width: 100%;
-	height: 100vh;
 
 }
 
@@ -27,22 +25,18 @@ header{
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	overflow: hidden;
-
 }
 
-section {
-overflow: hidden;
-height: 100%;
-
+section{
 
 }
 
 section p:first-child{
+
 	background: #131835;
 	width: 68%;
 	margin: 0 auto;
-	height: 93vh;
+	height: 100vh;
 	opacity: 0.85;
 	padding-left: 15%;
 	padding-right: 13%;
@@ -82,10 +76,9 @@ width: 100%;
 
 
 
-
-
-
-
-
-
+@media screen and (max-width:560px) {
+section p:first-child{
+overflow: scroll;
+}
+}
 
