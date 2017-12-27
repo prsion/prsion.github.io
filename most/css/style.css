@@ -1,6 +1,17 @@
 
 /*_____HEADER____________*/
 
+.line2 p, .line2 a, {
+white-space: pre-wrap;
+
+}
+
+.line3 p i,.sm,.color21,.Footstr span,.nav li,.tx1 em,.oneP{
+white-space: pre;
+}
+
+
+
 .wrapper{
 	max-width: 1550px;
 	height: auto;
