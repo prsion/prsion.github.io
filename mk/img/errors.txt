@@ -1,0 +1,5 @@
+[2018-04-23 00:05:53] layer "+1(234)5678901": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2018-04-23 00:05:53] layer "info.email@mkconsulting.com": Unsupported extension: com
+[2018-04-23 00:05:53] layer "g+": Expected end of input but "+" found.
+[2018-04-23 00:05:53] layer "info.email@mkconsulting.com копия": Expected end of input but "\u043A" found.
+[2018-04-23 00:05:53] layer "+1(234)5678901 копия": Expected Either a default asset specification or a layer asset specification but "+" found.
