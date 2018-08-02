@@ -1,119 +1,87 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
+
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.css">
+  <title>Welcome To My Portfolio</title>
+</head>
+
+<body id="bg-img">
+  <header>
+    <div class="menu-btn">
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+    </div>
+
+    <nav class="menu">
+      <div class="menu-branding">
+        <div class="portrait"></div>
+      </div>
+      <ul class="menu-nav">
+        <li class="nav-item current">
+          <a href="index.html" class="nav-link">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="AboutMe.html" class="nav-link">
+            About Me
+          </a>
+				</li>
+				<li class="nav-item">
+          <a href="MyWork.html" class="nav-link">
+            My Work
+          </a>
+				</li>
+				<li class="nav-item">
+          <a href="Cost.html" class="nav-link">
+            Cost & lead time
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">
+            How To Reach Me
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+	
 
 
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <main id="home">
+    <h1 class="lg-heading">
+      Alexander
+      <span class="text-secondary">Kutsyn</span>
+    </h1>
+    <h2 class="sm-heading">
+      Web Developer, JavaScript & PHP Programmer
+    </h2>
+    <div class="icons">
+      <a href="https://twitter.com">
+        <i class="fab fa-twitter fa-2x"></i>
+      </a>
+      <a href="https://www.facebook.com">
+        <i class="fab fa-facebook fa-2x"></i>
+      </a>
+      <a href="https://www.linkedin.com">
+        <i class="fab fa-linkedin fa-2x"></i>
+      </a>
+      <a href="https://github.com/prsion">
+        <i class="fab fa-github fa-2x"></i>
+      </a>
+    </div>
+  </main>
 
-	<title>portfolio</title>
+  <script src="js/main.js"></script>
+</body>
 
-	<!-- Bootstrap -->
-	<link href="css/bootstrap.css" rel="stylesheet">
- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css">
-
-	<link href="https://fonts.googleapis.com/css?family=Bad+Script|Marmelad|Neucha|Open+Sans" rel="stylesheet">
-
-	<link href="css/style.css" rel="stylesheet">
-
-	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
-	 <!-- WARNING: Respond.js doesn't work if you view the page via file://  -->
-
-
-
-
-  </head>
-
-
-  <body class="body">  	<!-- ____________________   ШАПКА САЙТА HEADER ______________________________________-->
-
-<div class="wrapper">
- <div class="header">
- <div class="container-fluid">
- 	<div class="row">
- 		<div class="col-md-12">
-
- 		<section>
-
-<div class="tabs">
-				<ul class="nav nav-tabs">
-					<li class="active"><a href="#tab-1" data-toggle="tab">О себе</a></li>
-					<li><a href="#tab-2" data-toggle="tab">Услуги</a></li>
-					<li><a href="#tab-3" data-toggle="tab">Стоимость и сроки выполнения заказа</a></li>
-					<li><a href="#tab-4" data-toggle="tab">Портфолио</a></li>
-					<li><a href="#tab-5" data-toggle="tab">Контакты</a></li>
-				</ul>
-
-			<div class="tab-content">
-				<div class="tab-pane fade in active" id="tab-1">
-					<p>Здравствуйте!<br> Меня зовут Александр.<br> Я занимаюсь версткой сайтов. Постоянно развиваюсь в данном направлении и осваиваю новые Web технологии, позволяющие создавать качественные сайты и ускорить время выполнения заказа.</p>
-				</div>
-		    	<div class="tab-pane fade" id="tab-2">
-					<p>Верстка сайтов по PSD макету или Вашему примеру с их последующим сопровождением в сети. В итоге Вы получаете адаптивный(подстраивающийся под экраны устройств всех размеров) и кроссбраузерный(одинаково отображающийся во всех браузерах) сайт. Также верстаю сайты-визитки, сайты-блоги,  сайты-каталоги, интернет-магазины, Landing Page. Создание адаптивности для уже существующего статичного сайта. Выкладка сайта на хостинг.</p>
-				</div>
-		  		<div class="tab-pane fade" id="tab-3">
-					<p>Стоимость работ представленных в портфолио составляет от 50 у.е. Сроки выполнения данных работ составляют 24-40 часов или (3-5 дней). Предоплата 50% от стоимости работы.<br>Свяжитесь со мной удобным для Вас способом, договоримся, и придем к обоюдовыгодному решению.</p>
-				</div>
-				<div class="tab-pane fade" id="tab-4">
-					<p>Здесь представлены одни из нескольких последних моих работ.
-					<a href="http://prsion.github.io/student" target="_blank">Пример №1</a>
-					<a href="http://prsion.github.io/most" target="_blank">Пример №2</a>
-					<a href="http://prsion.github.io/married" target="_blank">Пример №3</a>
-				</p>
-				</div>
-				<div class="tab-pane fade" id="tab-5">
-				<p>
-					<i class="fa fa-lg fa-envelope" aria-hidden="true"></i> prsion71@gmail.com<br>
-					<i class="fa fa-lg fa-skype" aria-hidden="true"></i> prsion71<br>
-					<i class="fa fa-lg fa-facebook" aria-hidden="true"></i> Александр Куцын<br>
-				</p>
-				</div>
-
-			</div>
-
-
-	 </div>
-
-
-
-
-
-
- 		</section>
-
-
-
-			</div><!-- end 12 -->
-		</div><!-- end row -->
-
-
-
-
-
-
-
-  </div><!-- end fluid -->
-
-
-
-
-
-
-
-
-
-</div> <!-- end header-->
-</div> <!-- end wrapper-->
-
-
-
-  	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  	<!-- Include all compiled plugins (below), or include individual files as needed -->
-  	<script src="js/bootstrap.js"></script>
-
-
-   </body>
 </html>
-
