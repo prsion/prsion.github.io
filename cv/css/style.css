@@ -150,10 +150,11 @@ body {
     body#bg-img:after {
       content: '';
       position: absolute;
-      top: 0;
+      top: -24px;
       right: 0;
       width: 100%;
-      height: 100%;
+			height: 100%;
+			min-height: 103vh;
 			z-index: -1;
 			opacity: 0.9;
 			background: #0c3149;
@@ -282,7 +283,7 @@ main {
   background: #072c3f;
   color: #fff;
 	height: 60px;
-	opacity: 0.9;
+	opacity: 1;
 }
 
 @media screen and (min-width: 1171px) {
@@ -330,7 +331,7 @@ main {
 		@media screen and (max-width: 768px) {
 			
 		body#bg-img:after{
-			min-height: 100vh;
+			min-height: 103vh;
 		}
 		main {
 			min-height: calc(100vh - 60px);
@@ -357,8 +358,7 @@ main {
 body#bg-img:after {
     content: '';
     position: absolute;
-    top: 0;
-		min-height: 100vh;
+    min-height: 103vh;
 		
 	}
 
@@ -370,7 +370,7 @@ body#bg-img:after {
   background: #07293b;
   color: #fff;
 	height: 60px;
-	opacity: 0.9;
+	opacity: 1;
 	
 }
 
@@ -381,9 +381,9 @@ body#bg-img:after {
 		body#bg-img:after {
 			content: '';
 			position: absolute;
-			top: 0;
 			right: -100px;
 			width: 133%;
+			min-height: 140vh;
 			
 	}
 
