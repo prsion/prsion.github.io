@@ -353,28 +353,11 @@ main {
 		}
 
 
-	@media screen and (min-width:340px) and (max-width: 420px) {
+	@media screen and (max-width: 415px) {
 	
-body#bg-img:after {
-    content: '';
-    position: absolute;
-    min-height: 103vh;
-		
-	}
-
-	
-#main-footer {
- 
- text-align: center;
-  padding: 1rem;
-  background: #07293b;
-  color: #fff;
-	height: 60px;
-	opacity: 1;
-	
-}
-
-
+		.boxes div {
+			font-size: 1.5rem;
+		}
 }
 
 	@media screen and (max-width: 339px) {
