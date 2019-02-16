@@ -1,0 +1,93 @@
+
+/*_____HEADER____________*/
+body{
+
+
+
+}
+.tabs {
+width: 100%;
+
+}
+
+.wrapper{
+	max-width: 1550px;
+	background: url(../images/internet.png) no-repeat fixed center top / cover;
+	opacity: 1;
+	position: relative;
+	width: 100%;
+
+}
+
+.nav-tabs > li > a:hover,  .nav-tabs > li > a:focus{
+background: #0286b6;
+
+}
+
+header{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: hidden;
+
+}
+
+section {
+
+height: 100%;
+
+
+}
+
+section p:first-child{
+	background: #131835;
+	width: 68%;
+	margin: 0 auto;
+	height: 93vh;
+	opacity: 0.85;
+	padding-left: 15%;
+	padding-right: 13%;
+	font-size: 1.75rem;
+	padding-top: 7%;
+	font-family: 'Marmelad', sans-serif;
+	line-height: 2.5;
+
+}
+#tab-4 a{display: block;margin: auto;text-align: -webkit-center;text-decoration: underline;color: #8bf6f9;}
+#tab-5 i{
+margin-left: 15%;
+margin-top: 10%;
+color: #2fcbff;
+}
+
+.nav-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+}
+
+/* =========== MEDIA ===========*/
+
+
+
+
+
+@media screen and (max-width:1056px) {
+.nav {
+    margin-left: 0%;
+    margin-right: 0%;
+}
+section p:first-child{
+width: 100%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
