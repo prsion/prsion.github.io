@@ -1,0 +1,204 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+body{
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.wrapper{
+	max-width: 1600px;
+	background: #fff;
+	position: relative;
+	}
+/*======== header ==========*/
+
+
+header {
+	position: relative;
+	display: block;
+}
+.clearFix:after{
+content: "";
+display: block;
+clear: both;
+height: 0px;
+}
+
+.mainmenu {
+    width: 100%;
+    z-index: 222;
+    background: #2f5875;
+    position: absolute;
+    overflow: hidden;
+    height: 40px;
+    margin: 30px 0;
+    margin-top: 0%;
+    opacity: 0.75;
+}
+.mainmenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    float: left;
+    font: 14px Arial, Helvetica, sans-serif;
+    height: 40px
+}
+.mainmenu ul li {
+    position: relative;
+    left: -50%;
+    float: left;
+    margin: 0 10px;
+    height: 40px
+}
+.mainmenu ul li a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 0 15px;
+    line-height: 40px;
+    font-size: 1rem;
+}
+.mainmenu ul li a:hover {
+    background-color: #2986bb;
+}
+
+.slogan{
+position: absolute;
+z-index: 555;
+margin-left: auto;
+margin-right: auto;
+font-size: 2.5rem;
+width: 100%;
+height: 100%;
+}
+h1{
+	text-align: center;
+	width: 100%;
+	margin-top: 21%;
+	color:#2f5875;
+}
+
+
+
+
+
+
+
+/*=======END==HEADER==========*/
+
+.banner-relation{
+	position: relative;
+	background: #c2816b;
+	overflow: hidden;
+	display: block;
+}
+
+.relation-content{
+	width: 100%;
+	height: auto;
+	top: -46px;
+	position: absolute;
+
+}
+
+.relation{
+	 padding-top: 47.113%;
+	 height: 0px;
+	 background: #d45d5d;
+}
+
+
+
+
+
+.aboutUs, .poslugi, .contacty {
+height: 250px;
+width: 100%;
+padding-left:25%;
+padding-right: 25%;
+margin-bottom: 1%;
+background: #e8e6d8;
+display: block;
+}
+.section_text{
+	font-size: 1.2rem;
+	float: right;
+}
+.section_text_img{
+float:left;
+display: inline-block;
+}
+
+
+.h2{
+text-align: center;
+}
+.footer{
+text-align: center;
+}
+
+
+/*
+second  case scroll
+
+#toTop {
+width:100px;
+border:1px solid #ccc;
+background:#fcba00;;
+text-align:center;
+padding:5px;
+position:fixed;
+bottom:10px; отступ кнопки от нижнего края страницы
+right:10px;
+cursor:pointer;
+display:none;
+color:#fff
+font-family:verdana;
+font-size:11px;
+margin-left: 88%;
+margin-top: -2%;
+} */
+
+
+.scrollup{
+width:40px;
+height:40px;
+opacity:0.3;
+position:fixed;
+bottom:50px;
+right:100px;
+display:none;
+text-indent:-9999px;
+background: url(../img/icon_top.png) no-repeat;
+}
+
+
+/*=======MEDIA == E=N=D ============*/
+
+@media screen and (max-width:560px){
+	.mainmenu ul li a {
+		font-size: 0.75rem;
+	}
+}
