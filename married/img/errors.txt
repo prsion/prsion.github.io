@@ -1,2 +1,0 @@
-[2017-10-19 14:55:48] layer "wedding_style@ukr.net": Unsupported extension: net
-[2017-10-19 14:55:48] layer "wedding_style@ukr.net": Unsupported extension: net
