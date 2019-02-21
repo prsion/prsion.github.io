@@ -53,7 +53,7 @@ height: 0px;
     height: 40px;
     margin: 30px 0;
     margin-top: 0%;
-    opacity: 0.65;
+    opacity: 0.85;
 }
 .mainmenu ul {
     list-style: none;
@@ -84,6 +84,9 @@ height: 0px;
  background-color:#f59426;
 }
 
+
+
+
 .slogan{
 position: absolute;
 z-index: 555;
@@ -104,6 +107,16 @@ margin-top: 20%;
     height: 75px;
     margin: 0 auto;
 }
+
+.logotype{
+margin-top: 5%;
+margin-left: 0%;
+width: 180px;
+height:130px;
+position: absolute;
+z-index: 555;
+}
+
 h1{
 	text-align: center;
 	width: 100%;
@@ -125,7 +138,7 @@ text-align: center;
 	position: relative;
 	overflow: hidden;
 	display: block;
-		background: url(../img/1.jpg) no-repeat center top;
+	background: url(../img/1.jpg) no-repeat center
 }
 .relation-content{
 	width: 100%;
@@ -133,7 +146,7 @@ text-align: center;
 	top: 0;
 	position: absolute;
   /* background: #f59426; */
- background: rgba(245,148,38,0.4);
+ background: rgba(245,148,38,0.35);
 }
 .relation{
 	 padding-top: 47.113%;
@@ -179,9 +192,9 @@ margin-bottom: 3%;
 	height:auto;
 }
 .image img{
-	width: 100%;
-	margin-left: 25%;
-	margin-right: 25%;
+	width: 130%;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 
