@@ -302,6 +302,11 @@ background: url(../img/icon_top.png) no-repeat center top;
 .mainmenu ul li a {
 	padding: 0;
 }
+.title{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
 }
 
 @media screen and (max-width:450px){
@@ -310,6 +315,7 @@ background: url(../img/icon_top.png) no-repeat center top;
     width: 100px;
     height: 70px;
 }
+
 h1{
 	font-size: 1.5rem;
 	}
@@ -327,6 +333,17 @@ h1{
 	display: block;
 	line-height: 1.2;
 }
-
+.title{
+	padding-left: 0%;
+	padding-right: 0%;
+}
+.section_text{
+	width: 68%;
+}
+.image img{
+width: 100%;
+margin-left: 10%;
+margin-right: 20%;
+}
 
 }
