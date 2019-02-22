@@ -341,9 +341,11 @@ h1{
 	width: 68%;
 }
 .image img{
-width: 100%;
+width: 88%;
 margin-left: 10%;
 margin-right: 20%;
 }
-
+h4{
+	margin-top: 1%;
+}
 }
