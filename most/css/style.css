@@ -41,7 +41,17 @@ white-space: pre;
 
 
 .line1>div:first-child>div:last-child
-{position: absolute;color: #fff;margin-left: 97px;margin-top: 20px;font-size: 17px;}
+{position: absolute;
+	color: #fff;
+	margin-left: 97px;
+	margin-top: 20px;
+	font-size: 17px;
+}
+
+.line1>div:last-child>div:first-child{
+display: inline-table;
+margin-right: 14px;
+}
 
 .block1::after {
     content: '';
@@ -67,10 +77,7 @@ white-space: pre;
 	display: inline-block;
 	float: left;
 }
-.line1>div:last-child>div:first-child{
-display: inline-block;
-margin-right: 14px;
-}
+
 .line1>div:last-child{
 	float:right;
 	margin-right: 19.742%;
