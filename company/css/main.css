@@ -193,7 +193,7 @@ text-transform: uppercase;
   background-color: white;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  border: 1x solid grey;
+  border: 1px solid grey;
   padding: 15px;
   background-color: #7f7b7d;
   color: #fff;
@@ -335,6 +335,17 @@ width: 100px;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+
+}
+.move{
+  perspective: 1000px;
+  transform-style: preserve-3d;
+
+}
+.move-item{
+transition: transform 0.2s;
+
+
 }
 
 .foto_4 p {
