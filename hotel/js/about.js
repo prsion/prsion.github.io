@@ -24,7 +24,7 @@ $(document).ready(function()
 
 	*/
 
-	var map;
+
 	var header = $('.header');
 	var menu = $('.menu');
 	var menuActive = false;
@@ -45,7 +45,7 @@ $(document).ready(function()
 	initMenu();
 	initSearch();
 	initMilestones();
-	initGoogleMap();
+
 
 	/*
 
