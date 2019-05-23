@@ -1,0 +1,145 @@
+
+.wrapper{
+
+background-color:#162820;
+max-width: 1800px;
+height: 100vh;
+position: relative;
+padding-top: 10%;
+min-height: 1100px;
+box-sizing: border-box;
+
+
+}
+
+@-webkit-keyframes scroll {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    100% {
+        -webkit-transform: translate(-100%, 0);
+        transform: translate(-250%, 0)
+    }
+}
+
+@-moz-keyframes scroll {
+    0% {
+        -moz-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    100% {
+        -moz-transform: translate(-100%, 0);
+        transform: translate(-250%, 0)
+    }
+}
+@keyframes scroll {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-250%, 0)
+
+    }
+
+}
+ .box{
+  margin-left: calc(50% - 345px);
+  width: 690px;
+  margin-top: 5%;
+}
+
+.phone{
+float: right;
+color:#d3a14a;
+font-size: 2.5rem;
+margin-top: -5%;
+margin-right: 5%;
+
+
+}
+
+.sl p {
+text-align: center;
+color: #fff;
+}
+.fio{
+width: 690px;
+text-align: center;
+font-family: 'Great Vibes', cursive;
+position: absolute;
+color:#d3a14a;
+z-index: 100;
+font-size: 4.5rem;
+letter-spacing: 1.2rem;
+margin-top: -100px;
+margin-left: -90px;
+}
+
+.left {
+margin-top: 115px;
+margin-left: -100px;
+height: 25px;
+display: inline-block;
+font-size: 3.0rem;
+letter-spacing: 1.2rem;
+transform: rotate(-90deg);
+z-index: 100;
+position: fixed;
+
+}
+.left p {
+color:#a2d6a7;
+font-family: 'Kodchasan', sans-serif;
+}
+ .left p {
+padding-left: -100%;
+display: block;
+ -webkit-animation: scroll 5s infinite linear;
+ -moz-animation: scroll 5s infinite linear;
+ animation: scroll 5s infinite linear;
+}
+.data{
+  position: absolute;
+    color: #ffa944;
+    z-index: 100;
+    margin-left: 47%;
+    top: 27%;
+
+
+}
+.king_header{
+  width: 100%;
+  height: 131px;
+  margin-top: -8%;
+
+
+}
+.king_header img{
+
+  display: block;
+  margin: auto;
+  width: 350px;
+
+
+}
+.pict{
+  position: relative;
+  width: 100%;
+  height: 326px;
+
+}
+
+.pict_img{
+  display: block;
+  width: 325px;
+  margin: auto;
+
+}
+.social{
+float: right;
+display: inline-table;
+margin-top: -70vh;
+
+
+}
