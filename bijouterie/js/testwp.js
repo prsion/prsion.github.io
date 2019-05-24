@@ -45,7 +45,7 @@ return false;
 /* switch on-off slider and form */
 $('.pulse').click(function(){
   $( ".sl" ).toggle();
-  $( ".form" ).toggle();
+  $( "#contact_form" ).toggle();
   /*$('.sl').css('display','none');
   $('.form').css('display','block');*/
 
