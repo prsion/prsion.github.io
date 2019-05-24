@@ -41,33 +41,15 @@ $("html, body").animate({ scrollTop: 0 }, 800);
 return false;
 });
 
-/* mouse move  */
 
-const cards=document.querySelectorAll('.move');
+/* switch on-off slider and form */
+$('.pulse').click(function(){
+  $( ".sl" ).toggle();
+  $( ".form" ).toggle();
+  /*$('.sl').css('display','none');
+  $('.form').css('display','block');*/
 
-for (let i=0; i<cards.length; i++) {
-  const card=cards[i];
-  card.addEventListener('mousemove', startRotate);
-  card.addEventListener('mouseout', stopRotate);
-
-}
-
-function startRotate(e) {
-const cardItem = this.querySelector('.move-item');
-/*cardItem.style.transform = 'rotateX('+event.offsetY+'deg)';*/
-const halfHeight= cardItem.offsetHeight/2 ;
-cardItem.style.transform = 'rotateX('+-(event.offsetY-halfHeight)/3+'deg) rotateY('+(event.offsetX-halfHeight)/3+'deg)';
-/*cardItem.style.transform = 'rotateX(20deg)'*/
-
-}
-
-function stopRotate(e) {
-const cardItem = this.querySelector('.move-item');
-cardItem.style.transform = 'rotateX(0)';
-
-
-}
-
+}) ;
 
 
 

@@ -11,6 +11,12 @@ box-sizing: border-box;
 
 
 }
+.form{
+display: none;
+color: #000;
+
+}
+
 
 @-webkit-keyframes scroll {
     0% {
@@ -54,11 +60,77 @@ float: right;
 color:#d3a14a;
 font-size: 2.5rem;
 margin-top: -5%;
-margin-right: 5%;
+margin-right: 10%;
+}
 
+
+.pulse-main{
+position: relative;
+width: 100px;
+height: 100px;
+float: right;
+margin-right: 15%;
+}
+
+.pulse {
+    background: #4fbaea;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.pulse {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.pulse {
+
+text-align: center;
+line-height: 50px;
+color: #fff;
 
 }
 
+.pulse:before,
+.pulse:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    border: 50%;
+    border: 1px solid #4fbaea;
+    left: -20px;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+border-radius: 50%;
+animation: animate 2.5s linear infinite;
+}
+
+@keyframes animate
+{
+  0%
+    {
+    transform: scale(0.5);
+    opacity: 0;
+    }
+50%
+    {
+       opacity: 1;
+    }
+100%
+    {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+
+
+
+
+
+/*----------------*/
 .sl p {
 text-align: center;
 color: #fff;
@@ -97,7 +169,7 @@ padding-left: -100%;
 display: block;
  -webkit-animation: scroll 5s infinite linear;
  -moz-animation: scroll 5s infinite linear;
- animation: scroll 5s infinite linear;
+ animation: scroll 10s infinite linear;
 }
 .data{
   position: absolute;
